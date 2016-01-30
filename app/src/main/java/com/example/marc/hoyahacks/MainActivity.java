@@ -56,5 +56,6 @@ public class MainActivity extends AppCompatActivity {
     public void onUmdButtonClicked(View v) {
         Intent openDepartment = new Intent(this, UmdDepartmentActivity.class);
         startActivity(openDepartment);
+        
     }
 }
