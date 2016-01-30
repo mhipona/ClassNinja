@@ -52,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    // Opens UMD Department Activity
     public void onUmdButtonClicked(View v) {
         Intent openDepartment = new Intent(this, UmdDepartmentActivity.class);
         startActivity(openDepartment);
