@@ -55,17 +55,5 @@ public class MainActivity extends AppCompatActivity {
     public void onUmdButtonClicked(View v) {
         Intent openDepartment = new Intent(this, UmdDepartmentActivity.class);
         startActivity(openDepartment);
-//        Button button = (Button) v;
-//        if (button.isActivated()) {
-//            button.setText("UMD");
-//        } else {
-//            button.setText("clicked");
-//        }
-    }
-
-
-    private void testCommit() {
-        int i = 5;
-        int iii = 6;
     }
 }
