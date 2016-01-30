@@ -49,4 +49,9 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+    private void testCommit() {
+        int i = 5;
+        int iii = 6;
+    }
 }
